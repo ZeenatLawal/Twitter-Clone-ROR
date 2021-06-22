@@ -46,6 +46,8 @@ group :development do
   gem 'web-console', '>= 4.1.0'
   # Display performance information such as SQL time and flame graphs for each request in your browser.
   # Can be configured to work on production as well see: https://github.com/MiniProfiler/rack-mini-profiler/blob/master/README.md
+  gem 'spring'
+  gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'better_errors', '~> 2.9', '>= 2.9.1'
   gem 'rack-mini-profiler', '~> 2.0'
 end
