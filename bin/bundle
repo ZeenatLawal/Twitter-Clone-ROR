@@ -5,6 +5,8 @@
 # The application 'bundle' is installed as part of a gem, and
 # this file is here to facilitate running it.
 #
+# rubocob:disable Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
+# rubocob:disable Layout/LineLength
 
 require 'rubygems'
 
@@ -114,3 +116,6 @@ end
 m.load_bundler!
 
 load Gem.bin_path('bundler', 'bundle') if m.invoked_as_script?
+
+# rubocob:enable Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
+# rubocob:enable Layout/LineLength
